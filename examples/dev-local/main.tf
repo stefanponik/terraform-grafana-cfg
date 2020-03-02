@@ -1,4 +1,18 @@
 
+#########
+# Backend
+#########
+terraform {
+  backend "local" {
+    path = ".terraform/tf-state/terraform.tfstate"
+  }
+  required_version = ">= 0.12.0"
+
+  required_providers {
+    grafana = ">= 1.5"
+  }
+}
+
 ###########
 # Providers
 ###########
@@ -13,12 +27,7 @@ provider "grafana" {
 # Modules 
 #########
 module "terraform-grafana-cfg" {
-  source = "../../../../terraform-grafana-cfg"
-
-  grf_url        = var.grf_url
-  grf_user       = var.grf_user
-  grf_password   = var.grf_password
+  source         = "../../../../terraform-grafana-cfg"
   grf_folders    = var.grf_folders
   grf_dashboards = var.grf_dashboards
-
 }
