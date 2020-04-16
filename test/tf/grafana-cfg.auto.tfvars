@@ -13,7 +13,7 @@ grf_folders = [
 ]
 
 grf_dashboards = [
-  { Docker-Infra = "Docker-Host-Overview_test.json" },
+  { Docker-Infra = "./Docker-Host-Overview_test.json" },
 ]
 
 
