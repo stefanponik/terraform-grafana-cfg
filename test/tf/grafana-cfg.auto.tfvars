@@ -5,7 +5,7 @@
 grf_url = "http://grafana:3000"
 
 grf_user     = "admin"
-grf_password = "admin"
+grf_password = "Password1"
 
 
 grf_folders = [

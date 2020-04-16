@@ -27,6 +27,5 @@ variable "grf_folders" {
 }
 
 variable "grf_dashboards" {
-  type = list(object({
-  }))
+  type = list(any)
 }

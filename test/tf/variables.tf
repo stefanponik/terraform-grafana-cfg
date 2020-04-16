@@ -22,11 +22,9 @@ variable "grf_api_key" {
 }
 
 variable "grf_folders" {
-  type    = list(string)
-  default = []
+  type = list(string)
 }
 
 variable "grf_dashboards" {
-  type = list(object({
-  }))
+  type = list(any)
 }
