@@ -7,7 +7,7 @@ name: grafana-cfg
 on:
   push:
     branches: 
-      - ci-testing
+      - master
     tags: 
       - v0.*.*
     
