@@ -27,7 +27,7 @@ provider "grafana" {
 # Modules 
 #########
 module "terraform-grafana-cfg" {
-  source         = "github.com/stefanponik/terraform-grafana-cfg.git?ref=v0.0.1"
+  source         = "github.com/stefanponik/terraform-grafana-cfg.git?ref=v0.0.2"
   grf_folders    = var.grf_folders
   grf_dashboards = var.grf_dashboards
 }
