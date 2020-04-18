@@ -19,7 +19,7 @@ env:
 
 jobs:
   # This workflow contains a single job called "build"
-  Terraform-Restapi-Grafana-Datasources:
+  Terraform-grafan-cfg:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     strategy:
