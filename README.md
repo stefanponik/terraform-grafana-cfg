@@ -1,5 +1,7 @@
 # terraform-grafana-cfg
 
+![](https://github.com/stefanponik/terraform-grafana-cfg/workflows/grafana-cfg/badge.svg)
+
 Module provide programmatic and state aware way to manage InfluxDB databases and policies for InfluxDB OSS running on any platform
 
 # Terraform Requirements 
